@@ -4,9 +4,6 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 ##takes user input
 phrase = input('Enter a phrase:\n ')
 
-##converts phrase to a list
-convert_phrase = list(phrase)
-
 ##converts phrase to individual words
 split_phrase = phrase.split()
 
@@ -18,5 +15,3 @@ for word in split_phrase:
         word = word[1:] + word[0] + 'ay'
     print(word, end=' ')
         
-
-
